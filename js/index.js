@@ -103,3 +103,7 @@ stopNav.forEach(title => {
         event.preventDefault();
     });
 });
+
+document.querySelector('.nav a').addEventListener('click', event => {
+    event.preventDefault();
+});
